@@ -19,7 +19,7 @@ public class EnemySpawnerManager : MonoBehaviour
 
     [SerializeField] int wavesNumber;
 
-    private int currentWaveCount = 0;
+    [SerializeField] private int currentWaveCount = 0;
 
     public void SpawnerLogic()
     {
